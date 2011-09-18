@@ -1,0 +1,46 @@
+Todo :
+- Go to HC3.2
+- Put 	GameLoftStore.apk,
+		HeroOfSparta.apk,
+		LetsGolf.apk,
+		LinkToFacebook.apk,
+		NFS.apk,
+		TegraZone.apk,
+		YouTubeTablet.apk
+	in data/app (user can remove app in data/app)
+- Don't install recovery
+- Make a root rom
+- Busybox
+- Deodex
+- Pngopti
+
+
+
+----------------------------- v0.2.1 FireGhost 19.09.2011
+- Add ro.carrier=wifi-only in build.prop
+
+----------------------------- v0.1.7 FireGhost 19.09.2011
+- Del :
+--  3DPhotoBrowser.apk
+--  ApInAp.apk ApInAp.odex
+--  Aupeo.apk
+--  Clearfi.apk
+--  DTG.apk
+--  GameLoftStore.apk
+--  Gmail.apk
+--  HeroOfSparta.apk
+--  LetsGolf.apk
+--  LinkToAdobeFlash.apk LinkToAdobeFlash.odex
+--  LinkToFacebook.apk LinkToFacebook.odex
+--  LumiRead.apk
+--  Maps.apk
+--  MusicA.apk MusicA.odex
+--  nemoPlayer.apk
+--  NFS.apk
+--  SocialJogger.apk SocialJogger.odex
+--  Street.apk
+--  Talk.apk
+--  TegraZone.apk
+--  VideoEditorGoogle.apk
+--  YouTubeTablet.apk
+--  ZinioReader.apk ZinioReader.apk
