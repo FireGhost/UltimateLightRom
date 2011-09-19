@@ -1,5 +1,0 @@
-<mxml version="1.0" encoding="utf-8"?>
-<permissions>
-    <library name="clearfilib_tablet.jar"
-        file="/system/framework/clearfilib_tablet.jar"/>
-</permissions>
