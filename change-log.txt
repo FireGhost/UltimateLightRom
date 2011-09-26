@@ -1,16 +1,12 @@
 Todo :
 - Go to HC3.2
-- Put 	GameLoftStore.apk,
-		HeroOfSparta.apk,
-		LetsGolf.apk,
+- Put 		GameLoftStore.apk,
 		LinkToFacebook.apk,
-		NFS.apk,
 		TegraZone.apk,
 		YouTubeTablet.apk
+		DTG.apk
 	in data/app (user can remove app in data/app)
 - Don't install recovery
-- Make a root rom
-- Busybox
 - Deodex
 - Pngopti
 
@@ -18,6 +14,7 @@ Todo :
 
 ----------------------------- v0.2.1 FireGhost 19.09.2011
 - Add ro.carrier=wifi-only in build.prop
+- Rom rooted
 
 ----------------------------- v0.1.7 FireGhost 19.09.2011
 - Base : Acer_A500_4.010.38_COM_GEN1 (HC 3.1)
