@@ -20,6 +20,7 @@ Todo :
 - Add ro.carrier=wifi-only in build.prop
 
 ----------------------------- v0.1.7 FireGhost 19.09.2011
+- Base : Acer_A500_4.010.38_COM_GEN1 (HC 3.1)
 - Del :
 --  3DPhotoBrowser.apk
 --  ApInAp.apk ApInAp.odex
