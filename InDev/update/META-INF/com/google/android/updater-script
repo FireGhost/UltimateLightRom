@@ -1,3 +1,8 @@
+ui_print("");
+ui_print(" ----- Installation UltimateLightRom ");
+ui_print("");
+ui_print("");
+
 show_progress(0.235000, 0);
 format("ext4", "EMMC", "/dev/block/mmcblk0p3", "0");
 mount("ext4", "EMMC", "/dev/block/mmcblk0p3", "/system");
@@ -47,18 +52,13 @@ set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor");
 set_perm(0, 0, 0644, "/system/vendor/fake.txt");
 set_perm_recursive(0, 2000, 0755, 0755, "/system/xbin");
 set_perm(0, 0, 0700, "/system/xbin/tcpdump");
-package_extract_dir("calibration", "/tmp/");
-run_program("/system/bin/sh", "/tmp/calibration.sh");
 
 ui_print("  Fixing su permission...");
 set_perm(0, 0, 6755, "/system/bin/su");
 set_perm(0, 0, 6755, "/system/xbin/su");
 
-ui_print("  Installing busybox...");
-set_perm(0, 0, 6755, "/system/xbin/busybox");
-package_extract_dir("installation", "/tmp/");
-run_program("/system/bin/sh", "/tmp/install_busybox.sh");
-
+package_extract_dir("calibration", "/tmp/");
+run_program("/system/bin/sh", "/tmp/calibration.sh");
 show_progress(0.200000, 0);
 show_progress(0.200000, 10);
 package_extract_file("boot.img", "/dev/block/mmcblk0p2");
